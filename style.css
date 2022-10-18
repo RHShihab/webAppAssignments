@@ -1,16 +1,135 @@
-.images{
-    display: flex;
-    gap: 25px;
-  }
-  
-  .image-set img{
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    object-position: center center;
-    border-radius: 50%;
-  }
-  .image-set .name{
-    text-align: center;
-    width: 120px;
-  }
+*, *::after, *::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  background-color: #0B0F18;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 15px;
+}
+a{
+  color: white;
+}
+nav{
+  text-align: right;
+  width: 100px;
+  position: fixed;
+  top: 50px;
+  width: 30%;
+}
+nav div{
+  margin-bottom: 10px;
+}
+nav img{
+  width: 70px;
+  margin-bottom: 30px;
+}
+nav a{
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav-gap{
+  width: 30%;
+}
+.gap{
+  width: 10%;
+}
+main{
+  margin-top: 50px;
+  width: 60%;
+}
+.main{
+  width: 550px;
+}
+
+.title{
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.subtitle{
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: #93989f;
+}
+
+.inline{
+  display: flex;
+  gap: 10px;
+}
+
+.card{
+  background-color: #203149;
+  padding: 7px;
+  font-size: 12px;
+  border-radius: 2px;
+  height: fit-content;
+}
+
+.inline:first-of-type{
+  margin-bottom: 50px;
+}
+p{
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+section{
+  margin: 50px 0;
+}
+h2{
+  margin-bottom: 15px;
+}
+
+ul{
+  padding-left: 30px;
+}
+li{
+  margin-bottom: 10px;
+}
+h3{
+  margin: 20px 0 10px 0;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 15px;
+}
+
+.image-set img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 50%;
+}
+.image-set .name {
+  text-align: center;
+  width: 100px;
+}
+td{
+  vertical-align: top;
+}
+td>div.card{
+  margin-right: 40px;
+}
+.purple{
+  background-color: rgb(130, 54, 166);
+}
+.blue{
+  background-color: rgb(70, 94, 190);
+}
+.red{
+  background-color: rgb(173, 29, 29);
+}
+.green{
+  background-color: rgb(11, 160, 11);
+}

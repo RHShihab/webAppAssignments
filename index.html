@@ -4,190 +4,205 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Course Outline | Assignment 1</title>
   </head>
   <body>
-    <nav></nav>
+    <nav>
+      <div class="icon"><img src="https://web.stanford.edu/class/cs106s/images/logo.png" alt=""></div>
+      <div class="links"><a href="#news" style="color: rgb(235, 201, 5)">News</a></div>
+      <div class="links"><a href="#details" style="color: rgb(53, 210, 76)">Details</a></div>
+      <div class="links"><a href="#instructors" style="color: rgb(61, 115, 214)">Instructors</a></div>
+      <div class="links"><a href="#syllabus" style="color: rgb(149, 75, 210)">Syllabus</a></div>
+      <div class="links"><a href="#sourceCode" style="color: rgb(215, 107, 60)">Source Code</a></div>
+    </nav>
+    <div class="nav-gap"></div>
+    <div class="gap"></div>
     <main>
-      <h1 class="title">CSE309</h1>
-      <h1 class="subtitle">Web Applications & Internet</h1>
-      <div class="inline">
-        <div class="card">Autumn 2022</div>
-        <div class="card">CSELab3</div>
-        <div class="card">MW 8:00am</div>
-      </div>
-      <p>
-        This course serves as a comprehensive overview of web technologies and
-        their usage. Essential topics such as OSI & TCP/IP architecture,
-        Internet Routing, IP addressing & Domain Name System will be covered.
-        Discussions will be held on popular browsers, HTML and Cascading Style
-        Sheet, HTTP, HTTPS, FTP, Client and Server side scripts, Scripting
-        (JavaScript, AJAX, XML) with jQuery libraries, Web Servers (IIS,
-        Apache). Students will learn to design dynamic websites using ASP.NET
-        with SQL server and PHP with My SQL. A brief overview of topics in web
-        security such as cryptography, digital signatures, digital certificates,
-        authentication & firewall will be provided.
-      </p>
-      <section id="news">
-        <h2>News</h2>
+      <div class="main">
+        <h1 class="title">CSE309</h1>
+        <h1 class="subtitle">Web Applications & Internet</h1>
         <div class="inline">
-          <div class="card">09/10/22</div>
-          <div>
-            <p>
-              Welcome to CS106S! Our first class will be Tuesday September 27,
-              2022 at 4:30 P.M. PT in 540-108.
-            </p>
-            <p>
-              While CS 106S does not have a waitlist,
-              <strong
-                >we encourage all interested students to attend the first
-                class;</strong
-              >
-              historically, we have not had to turn students away from CS 106S
-              for enrollment reasons.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="details">
-        <h2>Course Details</h2>
-        <p>
-          We're looking forward to a great quarter with you in CS106S! We know
-          you are being equipped with the tools to make super cool stuff.
-          However, sometimes it is difficult to see where these tools fit in the
-          larger scheme of things. We want to show you ways to put the skills
-          you have learned to good social use! Here are our objectives:
-        </p>
-        <ul>
-          <li>
-            <strong>Awareness: </strong>For students to gain awareness about the
-            applicability of technology and computer science to enact social
-            good in the world.
-          </li>
-          <li>
-            <strong>Exposure: </strong>For students to learn how to utilize
-            their skills to build tools and projects that create positive social
-            impact.
-          </li>
-          <li>
-            <strong>Utilization: </strong>For students to gain exposure to the
-            variety of current projects and efforts to use computer science for
-            social good.
-          </li>
-        </ul>
-        <p>
-          Now, let's get into some important details: expectations, grading, and
-          meeting time!
-        </p>
-        <h2>Student Expectations</h2>
-        <p>
-          Students are expected to attend class each week and participate in
-          class lectures, discussions, and exercises. Every week will have a
-          check-off form with some simple questions from class and feedback
-          prompts for the teaching team; we leave time at the end of class for
-          you to complete the check-off form (and we expect it to take no more
-          than five minutes), and will close at 11:59pm the day of class. This
-          will be the way we check your attendance.
-        </p>
-      </section>
-      <section id="instructors">
-        <h2>Instructors</h2>
-        <div class="images">
-          <div class="image-set">
-            <img
-              src="https://media.istockphoto.com/photos/home-office-picture-id1205852013?k=20&m=1205852013&s=612x612&w=0&h=HbQ4CUB0_jmtcAMvPMdwlpvetWHBi7VUplD2aNnLWuk="
-              alt=""
-            />
-            <div class="name">Truth Seeker</div>
-          </div>
-          <div class="image-set">
-            <img
-              src="https://st.depositphotos.com/1001201/4197/i/950/depositphotos_41973075-stock-photo-stress-and-frustration.jpg"
-              alt=""
-            />
-            <div class="name">One Punch Man</div>
-          </div>
-          <div class="image-set">
-            <img
-              src="https://thumbs.dreamstime.com/z/frustrated-pc-user-3175881.jpg"
-              alt=""
-            />
-            <div class="name">Hammer Man</div>
-          </div>
-          <div class="image-set">
-            <img src="https://en.pimg.jp/032/499/892/1/32499892.jpg" alt="" />
-            <div class="name">Charles Gunner</div>
-          </div>
-          <div class="image-set">
-            <img
-              src="https://media.tenor.com/tvFWFDXRrmMAAAAM/blow-mind-mind-blown.gif"
-              alt=""
-            />
-            <div class="name">Mind Blower</div>
-          </div>
+          <div class="card">Autumn 2022</div>
+          <div class="card">CSELab3</div>
+          <div class="card">MW 8:00am</div>
         </div>
         <p>
-          Questions? Contact us at
-          <strong>cs106s-aut2223-staff@lists.stanford.edu</strong>!
+          This course serves as a comprehensive overview of web technologies and
+          their usage. Essential topics such as OSI & TCP/IP architecture,
+          Internet Routing, IP addressing & Domain Name System will be covered.
+          Discussions will be held on popular browsers, HTML and Cascading Style
+          Sheet, HTTP, HTTPS, FTP, Client and Server side scripts, Scripting
+          (JavaScript, AJAX, XML) with jQuery libraries, Web Servers (IIS,
+          Apache). Students will learn to design dynamic websites using ASP.NET
+          with SQL server and PHP with My SQL. A brief overview of topics in web
+          security such as cryptography, digital signatures, digital certificates,
+          authentication & firewall will be provided.
         </p>
-      </section>
-      <section id="syllabus">
-        <h2>Syllabus</h2>
-        <p><em>The syllabus will be posted shortly</em></p>
-        <table>
-          <tr>
-            <td><div class="card">Week 1</div></td>
-            <td>
-              <p><strong>Introduction, Ciphers, and JavaScript</strong> — 9/27, Miles</p>
-              <div class="inline">
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Slides</a></div>
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Starter Code</a></div>
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Checkoff Form</a></div>
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Solution</a></div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td><div class="card">Week 2</div></td>
-            <td>
-              <p><strong>Sentiment Analysis and Refugee Tweets</strong>— 10/4, Miles</p>
-              <div class="inline">
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Slides</a></div>
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Starter Code</a></div>
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Checkoff Form</a></div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td><div class="card">Week 3</div></td>
-            <td>
-              <p><strong>Cancer Diagnosis with K-Nearest Neighbors</strong> — 10/11, Sarah</p>
-              <div class="inline">
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Slides</a></div>
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Starter Code</a></div>
-                <div class="card"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Checkoff Form</a></div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td><div class="card">Week 4</div></td>
-            <td><strong>Cs for Climate Change</strong> — 10/18, Liza</td>
-          </tr>
-          <tr>
-            <td><div class="card">Week 5</div></td>
-            <td><strong>Educational Technology for Good</strong> — 10/25, Joe</td>
-          </tr>
-          <tr>
-            <td><div class="card">Week 6</div></td>
-            <td><strong>Open Source Software</strong> — 11/1, Miles</td>
-          </tr>
-          <tr>
-            <td><div class="card">Week 7</div></td>
-            <td><strong>Mental Health and ELIZA</strong> — 11/8, Joe</td>
-          </tr>
-        </table>
-      </section>
+        <section id="news">
+          <h2>News</h2>
+          <div class="inline">
+            <div class="card">09/10/22</div>
+            <div>
+              <p>
+                Welcome to CS106S! Our first class will be Tuesday September 27,
+                2022 at 4:30 P.M. PT in 540-108.
+              </p>
+              <p>
+                While CS 106S does not have a waitlist,
+                <strong
+                  >we encourage all interested students to attend the first
+                  class;</strong
+                >
+                historically, we have not had to turn students away from CS 106S
+                for enrollment reasons.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="details">
+          <h2>Course Details</h2>
+          <p>
+            We're looking forward to a great quarter with you in CS106S! We know
+            you are being equipped with the tools to make super cool stuff.
+            However, sometimes it is difficult to see where these tools fit in the
+            larger scheme of things. We want to show you ways to put the skills
+            you have learned to good social use! Here are our objectives:
+          </p>
+          <ul>
+            <li>
+              <strong>Awareness: </strong>For students to gain awareness about the
+              applicability of technology and computer science to enact social
+              good in the world.
+            </li>
+            <li>
+              <strong>Exposure: </strong>For students to learn how to utilize
+              their skills to build tools and projects that create positive social
+              impact.
+            </li>
+            <li>
+              <strong>Utilization: </strong>For students to gain exposure to the
+              variety of current projects and efforts to use computer science for
+              social good.
+            </li>
+          </ul>
+          <p>
+            Now, let's get into some important details: expectations, grading, and
+            meeting time!
+          </p>
+          <h3>Student Expectations</h2>
+          <p>
+            Students are expected to attend class each week and participate in
+            class lectures, discussions, and exercises. Every week will have a
+            check-off form with some simple questions from class and feedback
+            prompts for the teaching team; we leave time at the end of class for
+            you to complete the check-off form (and we expect it to take no more
+            than five minutes), and will close at 11:59pm the day of class. This
+            will be the way we check your attendance.
+          </p>
+        </section>
+        <section id="instructors">
+          <h2>Instructors</h2>
+          <div class="images">
+            <div class="image-set">
+              <img
+                src="https://media.istockphoto.com/photos/home-office-picture-id1205852013?k=20&m=1205852013&s=612x612&w=0&h=HbQ4CUB0_jmtcAMvPMdwlpvetWHBi7VUplD2aNnLWuk="
+                alt=""
+              />
+              <div class="name">Truth Seeker</div>
+            </div>
+            <div class="image-set">
+              <img
+                src="https://st.depositphotos.com/1001201/4197/i/950/depositphotos_41973075-stock-photo-stress-and-frustration.jpg"
+                alt=""
+              />
+              <div class="name">One Punch Man</div>
+            </div>
+            <div class="image-set">
+              <img
+                src="https://thumbs.dreamstime.com/z/frustrated-pc-user-3175881.jpg"
+                alt=""
+              />
+              <div class="name">Hammer Man</div>
+            </div>
+            <div class="image-set">
+              <img src="https://image.shutterstock.com/image-photo/yes-happy-handsome-student-spectacles-260nw-609130757.jpg" alt="" />
+              <div class="name">Mr. Happy</div>
+            </div>
+            <div class="image-set">
+              <img
+                src="https://media.tenor.com/tvFWFDXRrmMAAAAM/blow-mind-mind-blown.gif"
+                alt=""
+              />
+              <div class="name">Mind Blower</div>
+            </div>
+          </div>
+          <p>
+            Questions? Contact us at
+            <strong>cs106s-aut2223-staff@lists.stanford.edu</strong>!
+          </p>
+        </section>
+        <section id="syllabus">
+          <h2>Syllabus</h2>
+          <p><em>The syllabus will be posted shortly</em></p>
+          <table>
+            <tr>
+              <td><div class="card">Week 1</div></td>
+              <td>
+                <p><strong>Introduction, Ciphers, and JavaScript</strong> — 9/27, Miles</p>
+                <div class="inline">
+                  <div class="card purple"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Slides</a></div>
+                  <div class="card blue"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Starter Code</a></div>
+                  <div class="card red"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Checkoff Form</a></div>
+                  <div class="card green"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Solution</a></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><div class="card">Week 2</div></td>
+              <td>
+                <p><strong>Sentiment Analysis and Refugee Tweets</strong>— 10/4, Miles</p>
+                <div class="inline">
+                  <div class="card purple"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Slides</a></div>
+                  <div class="card blue"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Starter Code</a></div>
+                  <div class="card red"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Checkoff Form</a></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><div class="card">Week 3</div></td>
+              <td>
+                <p><strong>Cancer Diagnosis with K-Nearest Neighbors</strong> — 10/11, Sarah</p>
+                <div class="inline">
+                  <div class="card purple"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Slides</a></div>
+                  <div class="card blue"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Starter Code</a></div>
+                  <div class="card red"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Checkoff Form</a></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td><div class="card">Week 4</div></td>
+              <td><strong>Cs for Climate Change</strong> — 10/18, Liza</td>
+            </tr>
+            <tr>
+              <td><div class="card">Week 5</div></td>
+              <td><strong>Educational Technology for Good</strong> — 10/25, Joe</td>
+            </tr>
+            <tr>
+              <td><div class="card">Week 6</div></td>
+              <td><strong>Open Source Software</strong> — 11/1, Miles</td>
+            </tr>
+            <tr>
+              <td><div class="card">Week 7</div></td>
+              <td><strong>Mental Health and ELIZA</strong> — 11/8, Joe</td>
+            </tr>
+          </table>
+        </section>
+        <section id="sourceCode">
+          <p>Link to the source code: <a href="https://github.com/RHShihab/webAppAssignments" target="_blank">github.com/RHShihab/webAppAssignments</a></p>
+        </section>
+      </div>
     </main>
   </body>
 </html>
