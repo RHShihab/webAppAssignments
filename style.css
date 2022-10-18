@@ -1,0 +1,16 @@
+.images{
+    display: flex;
+    gap: 25px;
+  }
+  
+  .image-set img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 50%;
+  }
+  .image-set .name{
+    text-align: center;
+    width: 120px;
+  }
